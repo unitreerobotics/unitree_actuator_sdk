@@ -1,12 +1,13 @@
-cmake_minimum_required(VERSION 3.10.2)
-project(UnitreeMotorSDK_M80106)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O3")
+cmake_minimum_required(VERSION 2.8.3)
+project(UnitreeMotorA1B1)
 
-include_directories("include/")
+include_directories(
+    /home/$ENV{USER}/unitree_actuator_sdk/include/
+)
+
 link_directories(
     lib/
 )
 
-#example
 add_executable(motorctrl example/main.cpp)
-target_link_libraries(motorctrl libUnitreeMotorSDK_M80106_Linux64.so)
+target_link_libraries(motorctrl libunitreeMotorSDK_Linux64.so)
