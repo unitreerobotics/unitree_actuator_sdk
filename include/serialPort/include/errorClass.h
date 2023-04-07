@@ -1,5 +1,5 @@
-#ifndef ERRORCLASS_H
-#define ERRORCLASS_H
+#ifndef __ERRORCLASS_H
+#define __ERRORCLASS_H
 
 #include <string>
 #include <exception>
