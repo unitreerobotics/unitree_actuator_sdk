@@ -1,4 +1,0 @@
-/home/liang/Desktop/unitree_actuator_sdk/build/CMakeFiles/rebuild_cache.dir
-/home/liang/Desktop/unitree_actuator_sdk/build/CMakeFiles/edit_cache.dir
-/home/liang/Desktop/unitree_actuator_sdk/build/CMakeFiles/changeID.dir
-/home/liang/Desktop/unitree_actuator_sdk/build/CMakeFiles/motorctrl.dir

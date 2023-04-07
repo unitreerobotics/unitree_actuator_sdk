@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11 -O3  -rdynamic CMakeFiles/changeID.dir/example/changeID.cpp.o  -o changeID   -L/home/liang/Desktop/unitree_actuator_sdk/lib  -Wl,-rpath,/home/liang/Desktop/unitree_actuator_sdk/lib -lunitreeMotorSDK_Linux64 
