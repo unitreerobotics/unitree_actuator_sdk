@@ -73,7 +73,7 @@ public:
     bool sendRecv(uint8_t *sendMsg, uint8_t *recvMsg, size_t sendLength);
     bool sendRecv(MotorCmd* sendMsg, MotorData* recvMsg);
     bool sendRecv(std::vector<MotorCmd> &sendVec, std::vector<MotorData> &recvVec);
-
+    void test();
 private:
     void _open();
     void _set();

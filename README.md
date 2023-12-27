@@ -2,15 +2,13 @@
 
 ### Notice
 
-support motor: GO-M8010-6 motor
+support motor: GO-M8010-6 motor、A1 motor、 B1 motor
 
-not support motor: A1 motor、 B1 motor (Check A1B1 branch for support)
+gcc >= 5.4.0 (for x86 platform)
 
-gcc >= 5.4.0 (for libUnitreeMotorSDK_M80106_Linux64.so)
+gcc >= 7.5.0 (for Arm platform) 
 
-gcc >= 8.3.0 (for libUnitreeMotorSDK_M80106_Arm64.so) 
-
-run gcc -v  command to check your gcc version
+run gcc --version  command to check your gcc version
 
 ### Build
 ```bash
@@ -21,7 +19,12 @@ make
 ```
 
 ### Run
-Run examples with 'sudo',e.g.
+If the compilation is successful, many C++ example executable files will be generated in the build folder. Then run the examples with 'sudo', for example:
 ```bash
-sudo ./motorctrl
+sudo ./example_a1_motor
+```
+
+If you need to run the Python example, please enter the "python" folder. Then run the examples with 'sudo', for example:
+```python
+sudo python3 example_a1_motor.py
 ```
