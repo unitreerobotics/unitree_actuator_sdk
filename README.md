@@ -1,5 +1,7 @@
 # README.md
 
+If you have any questions or need assistance with usage, feel free to contact support@unitree.com.
+
 ### Notice
 
 support motor: GO-M8010-6 motor、A1 motor、 B1 motor
