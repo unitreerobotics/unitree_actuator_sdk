@@ -17,6 +17,9 @@ endif()
 add_executable(example_a1_motor example/example_a1_motor.cpp)
 target_link_libraries(example_a1_motor ${EXTRA_LIBS})
 
+add_executable(example_a1_motor_output example/example_a1_motor_output.cpp)
+target_link_libraries(example_a1_motor_output ${EXTRA_LIBS})
+
 add_executable(example_b1_motor example/example_b1_motor.cpp)
 target_link_libraries(example_b1_motor ${EXTRA_LIBS})
 
